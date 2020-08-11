@@ -1,0 +1,22 @@
+// 2
+/*- Write a program that receive the length and width of a rectangle and calculate and print the environment and area of it
+*/
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    double length, width;
+    double environment, area;
+    
+    cout << "plz inter length \n";
+    cin >> length;
+
+    cout << "plz inter width \n";
+    cin >> width;
+     
+    environment = (length + width) * 2;
+    area = length * width; 
+
+    cout << "environment: " << environment << "\n area: " << area << endl;
+}
